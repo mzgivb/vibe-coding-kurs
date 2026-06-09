@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibe Coding Fortbildung</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">✦ Vibe Coding</span>
+      <div class="nav-links">
+        <a href="#start" class="nav-link active">Start</a>
+        <a href="#karten" class="nav-link">Infokarten</a>
+        <a href="#quiz" class="nav-link">Quiz</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Start -->
+  <section id="start" class="hero">
+    <div class="hero-bg">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+      <div class="floating-shape shape-4"></div>
+    </div>
+    <div class="hero-content">
+      <span class="hero-badge">Fortbildung 2026</span>
+      <h1 class="hero-title">Vibe Coding</h1>
+      <p class="hero-subtitle">KI-gestützte Code-Entwicklung – von der Idee zur Anwendung mit natürlicher Sprache</p>
+      <a href="#karten" class="btn btn-primary">Los geht's ↓</a>
+    </div>
+  </section>
+
+  <!-- Infokarten -->
+  <section id="karten" class="cards-section">
+    <div class="section-header">
+      <h2 class="section-title">Grundlagen</h2>
+      <p class="section-desc">Die wichtigsten Konzepte rund um Vibe Coding</p>
+    </div>
+    <div class="cards-grid">
+      <article class="card card-1">
+        <div class="card-icon">🤖</div>
+        <h3 class="card-title">Was ist Vibe Coding?</h3>
+        <p class="card-text">
+          Vibe Coding beschreibt die Erstellung von Software durch natürliche Sprachbefehle an KI-Assistenten.
+          Statt Code manuell zu schreiben, formuliert man Absichten und die KI generiert die Umsetzung.
+          Der Entwickler wird vom Tippenden zum Dirigenten – er prüft, lenkt und verfeinert.
+        </p>
+        <ul class="card-list">
+          <li>Prompt → Code in Sekunden</li>
+          <li>Iterative Verfeinerung im Dialog</li>
+          <li>Rollenwechsel: Entwickler → Reviewer</li>
+        </ul>
+      </article>
+      <article class="card card-2">
+        <div class="card-icon">🛠️</div>
+        <h3 class="card-title">Tools & Workflows</h3>
+        <p class="card-text">
+          Von Claude Code über Cursor bis GitHub Copilot – die Werkzeuge für Vibe Coding werden immer mächtiger.
+          Entscheidend ist der richtige Workflow: Projektkontext geben, klare Prompts formulieren,
+          Ergebnisse kritisch prüfen und iterativ verbessern.
+        </p>
+        <ul class="card-list">
+          <li>Claude Code / Cursor / Copilot</li>
+          <li>Prompt-Engineering Grundlagen</li>
+          <li>Kontext-Aufbau & Iteration</li>
+        </ul>
+      </article>
+      <article class="card card-3">
+        <div class="card-icon">⚖️</div>
+        <h3 class="card-title">Best Practices & Grenzen</h3>
+        <p class="card-text">
+          Vibe Coding ist mächtig, aber kein Allheilmittel. Generierten Code immer reviewen!
+          Achte auf Sicherheit, verstehe die Logik, und sei dir der Grenzen bewusst:
+          Halluzinationen, fehlendes Domänenwissen und blinde Flecken der KI.
+        </p>
+        <ul class="card-list">
+          <li>Immer Code-Review durchführen</li>
+          <li>Halluzinationen erkennen</li>
+          <li>Wann Vibe Coding <em>nicht</em> geeignet ist</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Quiz -->
+  <section id="quiz" class="quiz-section">
+    <div class="section-header">
+      <h2 class="section-title">Vibe Coding Quiz</h2>
+      <p class="section-desc">Teste dein Wissen – 5 Fragen, Multiple Choice</p>
+    </div>
+    <div class="quiz-container" id="quizContainer">
+      <div class="quiz-progress" id="quizProgress">
+        <div class="quiz-progress-bar" id="progressBar"></div>
+      </div>
+      <div class="quiz-header">
+        <span class="quiz-counter" id="quizCounter">Frage 1 von 5</span>
+        <span class="quiz-score" id="quizScore">✓ 0</span>
+      </div>
+      <div class="quiz-body" id="quizBody">
+        <!-- wird per JS befüllt -->
+      </div>
+      <div class="quiz-footer" id="quizFooter">
+        <button class="btn btn-secondary" id="nextBtn" disabled>Weiter →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Vibe Coding Fortbildung 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

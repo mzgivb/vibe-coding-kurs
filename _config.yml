@@ -1,0 +1,18 @@
+# Konfiguration für GitHub Pages (Jekyll)
+# Der Kurs bleibt reines Markdown – dieses Theme rendert ihn zusätzlich als Website.
+title: Vibe Coding – Selbstlernkurs
+description: >-
+  Mit KI programmieren lernen – ohne Vorkenntnisse. Ein Selbstlernkurs für
+  Lehrkräfte und Schülerinnen und Schüler. Medienzentrum Gießen-Vogelsberg.
+theme: jekyll-theme-cayman
+lang: de-DE
+
+# Relative .md-Links werden auf Pages automatisch zu .html (Plugin standardmäßig aktiv).
+plugins:
+  - jekyll-relative-links
+
+# README.md dient sowohl als Repo-Startseite als auch als Website-Startseite.
+# Nur Nicht-Inhalte vom Rendern ausschließen.
+exclude:
+  - LICENSE
+  - beispiele/notizen-app/node_modules

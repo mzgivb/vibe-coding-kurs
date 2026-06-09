@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'">
+  <title>Notizen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div id="sidebar-header">
+        <h2>Notizen</h2>
+        <button id="btn-new" title="Neue Notiz">+</button>
+      </div>
+      <ul id="note-list"></ul>
+    </aside>
+    <main id="editor-area">
+      <div id="editor-empty">Wähle eine Notiz aus oder erstelle eine neue.</div>
+      <div id="editor-content" class="hidden">
+        <div id="editor-toolbar">
+          <input id="note-title" type="text" placeholder="Titel" maxlength="100">
+          <button id="btn-delete" title="Notiz löschen">Löschen</button>
+        </div>
+        <textarea id="note-content" placeholder="Schreibe hier..."></textarea>
+      </div>
+    </main>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

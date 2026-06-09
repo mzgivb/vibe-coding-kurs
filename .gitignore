@@ -1,0 +1,16 @@
+# Abhängigkeiten der Beispiel-Apps (werden lokal per `npm install` erzeugt)
+node_modules/
+package-lock.json
+
+# Betriebssystem-Müll
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Jekyll / GitHub Pages (lokaler Build)
+_site/
+.jekyll-cache/
+.sass-cache/
