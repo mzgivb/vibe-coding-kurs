@@ -214,10 +214,10 @@ Wenn du „Hallo Vibe Coding!" auf blauem Grund siehst: **Dein Werkzeug läuft.*
 
 ## ✅ Selbstcheck (Kurzcheck vor Modul 3)
 
-- [ ] Ich habe einen Weg gewählt (0, A oder B).
-- [ ] Mein Werkzeug reagiert auf einen Prompt.
-- [ ] (Weg A/B) `opencode --version` zeigt eine Version.
-- [ ] Ich konnte die Datei `hallo.html` im Browser öffnen.
+- Ich habe einen Weg gewählt (0, A oder B).
+- Mein Werkzeug reagiert auf einen Prompt.
+- (Weg A/B) `opencode --version` zeigt eine Version.
+- Ich konnte die Datei `hallo.html` im Browser öffnen.
 
 **Frage: Warum braucht der Ollama-Weg die „16k"-Modellvariante?**
 
@@ -232,6 +232,15 @@ zu bearbeiten. Mit zu kleinem Kontext „bearbeitet opencode keine Dateien".
 > **Keine Panik bei Problemen.** Wenn etwas klemmt: Frag die KI selbst nach Hilfe, probiere
 > Weg 0 als Ausweichlösung, oder schreib eine Mail an [jochen.leeder@mzgivb.de](mailto:jochen.leeder@mzgivb.de).
 > Eine ausführliche Linux-Installationshilfe liegt unter [material/install-opencode-linux-mint.sh](../material/install-opencode-linux-mint.sh).
+
+---
+
+## 📋 Aufgaben
+
+> Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
+
+- [ ] Wähle deinen Werkzeug-Weg (0, A oder B) und richte ihn ein #kurs/modul-2 (@[[2026-06-26]])
+- [ ] Stelle die erste Aufgabe und erzeuge `hallo.html`, öffne sie im Browser #kurs/modul-2 (@[[2026-06-26]])
 
 ---
 

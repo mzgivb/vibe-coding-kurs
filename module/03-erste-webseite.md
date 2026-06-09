@@ -173,4 +173,14 @@ Weil Änderungen **sofort im Browser sichtbar** werden – der Test-Schritt ist 
 
 ---
 
+## 📋 Aufgaben
+
+> Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
+
+- [ ] Baue per Prompt eine To-do-Liste und öffne sie im Browser #kurs/modul-3 (@[[2026-06-30]])
+- [ ] Steuere zweimal nach: erledigte Aufgaben ausblenden + Layout responsiv machen #kurs/modul-3 (@[[2026-06-30]])
+- [ ] (Optional) Baue die Quiz-Seite und vergleiche sie mit `beispiele/webseite/` #kurs/modul-3 (@[[2026-06-30]])
+
+---
+
 ⬅️ [Modul 2](02-werkzeug-einrichten.md) · 🏠 [Übersicht](../README.md) · ➡️ [Modul 4: Ein Python-Skript](04-python-skript.md)

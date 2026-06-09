@@ -44,11 +44,11 @@ man nicht vollständig versteht. Die wichtigste Kompetenz, die dieser Kurs vermi
 
 Hake das vor der Nutzung kurz ab:
 
-- [ ] Keine echten (Schüler-)Daten in KI-Chats eingegeben.
-- [ ] Bei Datei-Operationen (Python) zuerst mit **Kopien** getestet.
-- [ ] Generierten Code **überflogen** – tut er, was er soll? Macht er nichts Unerwartetes?
-- [ ] Keine Zugangsdaten / API-Keys im Code oder im Prompt.
-- [ ] Bei Unsicherheit: Code von einer Person mit Programmiererfahrung prüfen lassen.
+- Keine echten (Schüler-)Daten in KI-Chats eingegeben.
+- Bei Datei-Operationen (Python) zuerst mit **Kopien** getestet.
+- Generierten Code **überflogen** – tut er, was er soll? Macht er nichts Unerwartetes?
+- Keine Zugangsdaten / API-Keys im Code oder im Prompt.
+- Bei Unsicherheit: Code von einer Person mit Programmiererfahrung prüfen lassen.
 
 > Generierter Code kann **versteckte externe Abhängigkeiten** oder unsichere Praktiken
 > enthalten. Vor dem Einsatz – besonders im Unterricht – immer selbst kurz testen.
@@ -139,6 +139,15 @@ Weil das Modell lokal auf dem eigenen Gerät läuft – die eingegebenen Daten v
 Rechner nicht und gehen nicht an einen Cloud-Anbieter.
 
 </details>
+
+---
+
+## 📋 Aufgaben
+
+> Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
+
+- [ ] Lass dir von zwei KIs ein Passwort-Skript geben und vergleiche sie #kurs/modul-6 (@[[2026-07-08]])
+- [ ] Gehe die Sicherheits-Checkliste für eines deiner Projekte durch #kurs/modul-6 (@[[2026-07-08]])
 
 ---
 

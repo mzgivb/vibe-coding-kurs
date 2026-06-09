@@ -173,4 +173,14 @@ Verantwortung für Architektur und Qualität behält.
 
 ---
 
+## 📋 Aufgaben
+
+> Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
+
+- [ ] Formuliere für dich in zwei Sätzen, was Vibe Coding ist #kurs/modul-1 (@[[2026-06-24]])
+- [ ] Ordne den Beispiel-Dialog (oben) den vier Schritten zu #kurs/modul-1 (@[[2026-06-24]])
+- [ ] Schau das Einstiegsvideo zum Thema #kurs/modul-1 (@[[2026-06-24]])
+
+---
+
 ⬅️ [Zurück zur Übersicht](../README.md) · 🏠 [Übersicht](../README.md) · ➡️ [Modul 2: Werkzeug einrichten](02-werkzeug-einrichten.md)

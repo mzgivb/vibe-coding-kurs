@@ -159,4 +159,14 @@ Du hast den Kurs durchgearbeitet. Die drei Kernbotschaften zum Mitnehmen:
 
 ---
 
+## 📋 Aufgaben
+
+> Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
+
+- [ ] Beantworte die fünf Reflexionsfragen für dich #kurs/modul-7 (@[[2026-07-10]])
+- [ ] 🎓 Skizziere einen eigenen Unterrichtsbaustein (Klasse, Fach, Szenario, Bewertung) #kurs/modul-7 (@[[2026-07-10]])
+- [ ] 💡 Notiere deine nächste eigene Projektidee als fertigen Prompt #kurs/modul-7 (@[[2026-07-10]])
+
+---
+
 ⬅️ [Modul 6](06-sicherheit-datenschutz.md) · 🏠 [Übersicht](../README.md)

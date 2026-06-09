@@ -159,4 +159,14 @@ zusammenarbeitenden Teilen besteht – das erhöht die Anforderungen an Sicherhe
 
 ---
 
+## 📋 Aufgaben
+
+> Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
+
+- [ ] Starte die Notiz-App (`npm install && npm start`) #kurs/modul-5 (@[[2026-07-06]])
+- [ ] Ergänze per Vibe Coding eine Suchfunktion über der Notizliste #kurs/modul-5 (@[[2026-07-06]])
+- [ ] Mach die Suche case-insensitive und teste sie erneut #kurs/modul-5 (@[[2026-07-06]])
+
+---
+
 ⬅️ [Modul 4](04-python-skript.md) · 🏠 [Übersicht](../README.md) · ➡️ [Modul 6: Sicherheit & Datenschutz](06-sicherheit-datenschutz.md)

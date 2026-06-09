@@ -79,11 +79,11 @@ Halte die Struktur übersichtlich. Baue keine unnötige Komplexität ein.
 
 ## Sicherheits-Checkliste
 
-- [ ] Keine echten (Schüler-)Daten in KI-Chats.
-- [ ] Bei Datei-Operationen (Python) erst mit Kopien testen.
-- [ ] Generierten Code kurz überfliegen – tut er, was er soll?
-- [ ] Keine Zugangsdaten / API-Keys in Prompts.
-- [ ] Bei Unsicherheit: von einer Person mit Programmiererfahrung prüfen lassen.
+- Keine echten (Schüler-)Daten in KI-Chats.
+- Bei Datei-Operationen (Python) erst mit Kopien testen.
+- Generierten Code kurz überfliegen – tut er, was er soll?
+- Keine Zugangsdaten / API-Keys in Prompts.
+- Bei Unsicherheit: von einer Person mit Programmiererfahrung prüfen lassen.
 
 ---
 

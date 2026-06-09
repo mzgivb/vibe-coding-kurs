@@ -153,4 +153,14 @@ es mit den Dateien macht – und zuerst in einem Test-Ordner ausprobieren.
 
 ---
 
+## 📋 Aufgaben
+
+> Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
+
+- [ ] Lege einen Test-Ordner mit ein paar `.txt`-Dateien an (sicherer Spielplatz) #kurs/modul-4 (@[[2026-07-02]])
+- [ ] Lass dir `umbenennen.py` schreiben und führe es im Test-Ordner aus #kurs/modul-4 (@[[2026-07-02]])
+- [ ] Verbessere das Skript: Zielordner beim Start angeben können #kurs/modul-4 (@[[2026-07-02]])
+
+---
+
 ⬅️ [Modul 3](03-erste-webseite.md) · 🏠 [Übersicht](../README.md) · ➡️ [Modul 5: Eine Desktop-App](05-electron-app.md)

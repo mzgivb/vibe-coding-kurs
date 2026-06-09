@@ -84,10 +84,26 @@ Alles Weitere – welches KI-Werkzeug, wie du es installierst – klärt **[Modu
 
 ## Begleitmaterial
 
+- 📋 [Aufgaben & Kursfahrplan](Aufgaben.md) – alle Aufgaben und Termine im Überblick
 - 📄 [Cheat-Sheet](material/cheat-sheet.md) – die wichtigsten Punkte auf einen Blick
 - 📝 [Prompt-Vorlage](material/prompt-vorlage.md) – Bauplan für gute Prompts zum Kopieren
 - 🖼️ [Infografik](material/infografik.html) – Vibe Coding visuell erklärt
 - 📁 [Beispielprojekte](beispiele/) – fertige Vorlagen zum Ausprobieren
+
+---
+
+## Offline & mit MindGraph Notes nutzen
+
+Du kannst den Kurs **komplett offline** auf einem Laptop durcharbeiten:
+
+1. Lade den Kurs herunter (`git clone` oder als ZIP) und öffne den Ordner in
+   **[MindGraph Notes](https://github.com/mzgivb)** als Vault.
+2. Jedes Modul ist eine Notiz; die **Aufgaben** sind abhakbare Checkboxen.
+3. Im **Dashboard → Widget „Tasks"** laufen alle offenen Aufgaben des Kurses zusammen,
+   nach Fälligkeit sortiert; das **Focus**-Widget zeigt, was heute dran ist.
+
+So wird aus dem Kurs eine persönliche, abhakbare Lern-To-do-Liste. Details:
+[Aufgaben & Kursfahrplan](Aufgaben.md).
 
 ---
 
