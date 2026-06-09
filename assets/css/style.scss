@@ -1,0 +1,66 @@
+---
+---
+
+// =====================================================================
+//  Eigene Stile – passen das Cayman-Theme an die Markenfarben des
+//  Medienzentrums Gießen-Vogelsberg an (Rot / Schiefergrau).
+// =====================================================================
+
+// --- Markenfarben ---
+$mz-red:        #e30613;
+$mz-red-dark:   #9d0f18;
+$mz-red-link:   #c20f1c; // gut lesbares Rot auf weißem Grund
+$mz-slate:      #67747a;
+$mz-slate-dark: #3c454a;
+
+// --- Cayman-Variablen überschreiben (müssen VOR dem Import stehen) ---
+$header-bg-color:           $mz-red;
+$header-bg-color-secondary: $mz-red-dark;
+$header-heading-color:      #ffffff;
+$section-headings-color:    $mz-slate-dark;
+$body-link-color:           $mz-red-link;
+$blockquote-text-color:     #586066;
+
+@import "{{ site.theme }}";
+
+// =====================================================================
+//  Ergänzungen nach dem Import
+// =====================================================================
+
+// Logo im Kopfbereich: weiße Karte, damit das rote Icon auf dem roten
+// Verlauf sichtbar bleibt.
+.header-logo-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  line-height: 0;
+}
+
+.header-logo {
+  display: block;
+  width: 260px;
+  max-width: 78vw;
+  height: auto;
+  padding: 0.9rem 1.2rem;
+  background: #ffffff;
+  border-radius: 0.8rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+// Hinweis-Boxen (Markdown-Blockquotes) als dezente rote Callouts.
+.main-content blockquote {
+  border-left: 0.3rem solid $mz-red;
+  background: #fdf3f3;
+  padding: 0.7rem 1rem;
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+// Tabellen: Kopfzeile dezent grau, Markenlinie darunter.
+.main-content table th {
+  background: #f3f5f6;
+  border-bottom: 2px solid $mz-slate;
+}
+
+// Buttons im Kopf ("View on GitHub") etwas kräftiger.
+.btn {
+  font-weight: 600;
+}
