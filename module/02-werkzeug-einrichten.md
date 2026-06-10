@@ -81,6 +81,20 @@ curl -fsSL https://opencode.ai/install | bash
 
 Danach das **Terminal neu starten** (schließen und neu öffnen).
 
+> ⚠️ **Wichtig (macOS): Falls danach `opencode` nicht gefunden wird** („command not found:
+> opencode"), kennt das Terminal den Installationsort noch nicht. Dann diese zwei Zeilen ins
+> Terminal kopieren und mit Enter bestätigen:
+>
+> ```bash
+> echo 'export PATH="$HOME/.opencode/bin:$PATH"' >> ~/.zshrc
+> source ~/.zshrc
+> ```
+>
+> Hintergrund: opencode wird in den Ordner `~/.opencode/bin` installiert. Damit das Terminal
+> den Befehl findet, muss dieser Ordner im sogenannten PATH stehen. Das Installationsskript
+> versucht das automatisch einzutragen – auf manchen Macs (z. B. wenn die Datei `~/.zshrc`
+> noch nicht existiert) klappt das aber nicht. Die zwei Zeilen tragen den Pfad dauerhaft nach.
+
 **Windows – Variante 1 (empfohlen): WSL**
 
 1. PowerShell **als Administrator** öffnen (Rechtsklick → „Als Administrator ausführen").
