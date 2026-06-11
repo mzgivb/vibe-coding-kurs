@@ -31,8 +31,8 @@ Im Kurstext findest du immer wieder farbige Hinweis-Boxen:
 
 ## So funktioniert der Kurs
 
-Der Kurs besteht aus **sieben Modulen**, die aufeinander aufbauen. Du arbeitest ihn in
-deinem eigenen Tempo durch – allein, zu zweit oder im Unterricht.
+Der Kurs besteht aus **acht Modulen**, die aufeinander aufbauen (Modul 8 ist ein optionales
+Bonus-Modul). Du arbeitest ihn in deinem eigenen Tempo durch – allein, zu zweit oder im Unterricht.
 
 Jedes Modul ist gleich aufgebaut:
 
@@ -60,11 +60,13 @@ nachbessern. Trau dich, Dinge kaputtzumachen – die KI hilft dir, sie zu repari
 | 5 | [Eine Desktop-App](module/05-electron-app.md) | Eine echte Notiz-App erweitern | ~45 Min |
 | 6 | [Sicherheit & Datenschutz](module/06-sicherheit-datenschutz.md) | Risiken erkennen, KI-Code kritisch prüfen | ~30 Min |
 | 7 | [Reflexion & Unterricht](module/07-reflexion-bewertung-unterricht.md) | Einordnen, bewerten, im Unterricht einsetzen | ~30 Min |
+| 8 | [Abläufe automatisieren](module/08-skills-ablaeufe-automatisieren.md) | Skills bauen – Korrektur & Vorbereitung automatisieren (Bonus) | ~35 Min |
 
-**Gesamtzeit:** rund **4 Stunden** – bequem aufteilbar auf mehrere Sitzungen.
+**Gesamtzeit:** rund **4,5 Stunden** – bequem aufteilbar auf mehrere Sitzungen.
 
 > 🎓 **Für Lehrkräfte:** Module 1, 2, 6 und 7 eignen sich als kompakter Einstieg in einer
-> Doppelstunde. Module 3–5 sind die praktischen Projekte für eine Projektwoche oder AG.
+> Doppelstunde. Module 3–5 sind die praktischen Projekte für eine Projektwoche oder AG. **Modul 8**
+> (Bonus) zeigt, wie ihr eigene wiederkehrende Abläufe – Korrektur, Vorbereitung – automatisiert.
 
 ---
 

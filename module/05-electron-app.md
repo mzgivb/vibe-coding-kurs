@@ -1,6 +1,6 @@
 # Modul 5 – Eine Desktop-App
 
-🏠 [Kursübersicht](../README.md) · Modul 5 von 7
+🏠 [Kursübersicht](../README.md) · Modul 5 von 8
 
 ---
 

@@ -1,6 +1,6 @@
 # Modul 4 – Ein Python-Skript
 
-🏠 [Kursübersicht](../README.md) · Modul 4 von 7
+🏠 [Kursübersicht](../README.md) · Modul 4 von 8
 
 ---
 

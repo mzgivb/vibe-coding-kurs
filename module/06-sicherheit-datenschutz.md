@@ -1,6 +1,6 @@
 # Modul 6 – Sicherheit, Datenschutz & kritische Reflexion
 
-🏠 [Kursübersicht](../README.md) · Modul 6 von 7
+🏠 [Kursübersicht](../README.md) · Modul 6 von 8
 
 ---
 

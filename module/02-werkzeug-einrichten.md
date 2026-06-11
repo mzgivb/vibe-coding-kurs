@@ -1,6 +1,6 @@
 # Modul 2 – Werkzeug einrichten
 
-🏠 [Kursübersicht](../README.md) · Modul 2 von 7
+🏠 [Kursübersicht](../README.md) · Modul 2 von 8
 
 ---
 

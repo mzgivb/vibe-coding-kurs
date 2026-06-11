@@ -1,6 +1,6 @@
 # Modul 3 – Deine erste Webseite
 
-🏠 [Kursübersicht](../README.md) · Modul 3 von 7
+🏠 [Kursübersicht](../README.md) · Modul 3 von 8
 
 ---
 

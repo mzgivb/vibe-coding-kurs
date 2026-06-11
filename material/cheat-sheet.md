@@ -67,6 +67,23 @@ Halte die Struktur übersichtlich. Baue keine unnötige Komplexität ein.
 
 ---
 
+## Abläufe automatisieren: Skill vs. Befehl
+
+| | **Befehl** | **Skill** |
+|---|---|---|
+| Aufruf | du tippst `/name` | die KI lädt ihn selbst, wenn die Aufgabe passt |
+| Datei | `commands/name.md` | `skills/name/SKILL.md` |
+| Gut für | bewusst gestartete Schritte | dauerhafte Fähigkeit der KI |
+
+**Skill anlegen (global, für alle Projekte):** Ordner + Datei
+`~/.config/opencode/skills/<name>/SKILL.md`, oben ein Frontmatter mit `name:` und `description:`,
+darunter die Anleitung. **opencode danach neu starten.** Details: [Modul 8](../module/08-skills-ablaeufe-automatisieren.md).
+
+> 🎓 Skills machen Korrektur & Vorbereitung **gleichmäßiger und schneller** – aber: **keine echten
+> Schülerdaten** in die Cloud, **keine automatische Note**, fachliche Letztverantwortung bleibt bei dir.
+
+---
+
 ## Die 5 Reflexionsfragen
 
 1. Was konnte ich beschreiben, ohne Code zu schreiben?

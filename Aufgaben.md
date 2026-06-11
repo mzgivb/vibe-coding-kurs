@@ -18,13 +18,13 @@ Diese Seite gibt dir den Überblick über alle Aufgaben des Kurses und einen
 - Das **Widget „Focus"** zeigt, was **heute** dran ist.
 - Abhaken schreibt den Haken direkt in die Moduldatei – dein Fortschritt bleibt erhalten,
   auch offline auf dem Laptop.
-- Filtern kannst du über den Tag **`#kurs`** (bzw. `#kurs/modul-1` … `#kurs/modul-7`).
+- Filtern kannst du über den Tag **`#kurs`** (bzw. `#kurs/modul-1` … `#kurs/modul-8`).
 
 **Auf GitHub / im Browser:** Die Aufgaben werden als Checkliste angezeigt. Das Datum in der
 Form `(@[[2026-06-30]])` ist die **Fälligkeit für MindGraph** – im Browser einfach als Termin lesen.
 
 > **Hinweis zu den Terminen:** Der Fahrplan geht von einem **Kursstart am Di, 23.06.2026** aus
-> (rund 4 Stunden, verteilt auf gut zwei Wochen). Beginnst du später, verschiebe die Daten
+> (rund 4,5 Stunden, verteilt auf gut zwei Wochen). Beginnst du später, verschiebe die Daten
 > entsprechend – in MindGraph bequem per Datums-Picker, im Text per Suchen-und-Ersetzen.
 
 ---
@@ -40,8 +40,9 @@ Form `(@[[2026-06-30]])` ist die **Fälligkeit für MindGraph** – im Browser e
 | [5](module/05-electron-app.md) | Eine Desktop-App | 3 | **Mo, 06.07.2026** |
 | [6](module/06-sicherheit-datenschutz.md) | Sicherheit & Datenschutz | 2 | **Mi, 08.07.2026** |
 | [7](module/07-reflexion-bewertung-unterricht.md) | Reflexion & Unterricht | 3 | **Fr, 10.07.2026** |
+| [8](module/08-skills-ablaeufe-automatisieren.md) | Abläufe automatisieren (Bonus) | 3 | **Mo, 13.07.2026** |
 
-**Gesamt:** 19 Aufgaben · rund 4 Stunden Arbeitszeit.
+**Gesamt:** 22 Aufgaben · rund 4,5 Stunden Arbeitszeit.
 
 ---
 
@@ -82,6 +83,11 @@ Form `(@[[2026-06-30]])` ist die **Fälligkeit für MindGraph** – im Browser e
 - Beantworte die fünf Reflexionsfragen für dich.
 - 🎓 Skizziere einen eigenen Unterrichtsbaustein.
 - 💡 Notiere deine nächste eigene Projektidee als fertigen Prompt.
+
+### [Modul 8 – Abläufe automatisieren (Bonus)](module/08-skills-ablaeufe-automatisieren.md) · bis 13.07.
+- Lege den Skill `korrektur-helfer` als `SKILL.md` an und starte opencode neu.
+- 🎓 Teste den Skill mit einem anonymisierten/erfundenen Beispieltext.
+- 🎓 Passe die Kriterien in der `SKILL.md` an dein Fach an und teste erneut.
 
 ---
 

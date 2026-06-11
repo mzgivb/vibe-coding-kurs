@@ -1,6 +1,6 @@
 # Modul 1 – Was ist Vibe Coding?
 
-🏠 [Kursübersicht](../README.md) · Modul 1 von 7
+🏠 [Kursübersicht](../README.md) · Modul 1 von 8
 
 ---
 

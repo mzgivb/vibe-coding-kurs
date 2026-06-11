@@ -1,6 +1,6 @@
 # Modul 7 – Reflexion, Bewertung & Transfer in den Unterricht
 
-🏠 [Kursübersicht](../README.md) · Modul 7 von 7
+🏠 [Kursübersicht](../README.md) · Modul 7 von 8
 
 ---
 
@@ -137,18 +137,19 @@ im Browser sichtbar.
 
 ---
 
-## 🎉 Geschafft!
+## Fast geschafft – und jetzt: dir selbst Arbeit abnehmen
 
-Du hast den Kurs durchgearbeitet. Die drei Kernbotschaften zum Mitnehmen:
+Du hast den Kern des Kurses durchgearbeitet. Die drei Botschaften bis hierher:
 
 1. **Vibe Coding senkt die Einstiegshürde** – jeder kann mit KI etwas bauen.
 2. **Testen, Beurteilen und kritisches Denken** bleiben menschliche Kernkompetenzen.
 3. Für die Schule heißt das: **Kompetenzverschiebung, nicht Kompetenzverlust.**
 
-**Wie weiter?**
-- Stöbere im [Cheat-Sheet](../material/cheat-sheet.md) und in den [Beispielprojekten](../beispiele/).
-- Setze ein eigenes kleines Projekt um.
-- **Lehrkräfte:** Ein Vertiefungsworkshop ist auf Anfrage möglich.
+Bleibt eine Frage, die in Fortbildungen oft am meisten begeistert: **Kann KI mir auch bei meinen
+eigenen wiederkehrenden Aufgaben helfen** – Korrektur, Vorbereitung, Formulierungen? Ja. Genau
+das zeigt das abschließende Bonus-Modul.
+
+➡️ **[Modul 8: Abläufe automatisieren mit Skills](08-skills-ablaeufe-automatisieren.md)**
 
 ---
 
@@ -169,4 +170,4 @@ Du hast den Kurs durchgearbeitet. Die drei Kernbotschaften zum Mitnehmen:
 
 ---
 
-⬅️ [Modul 6](06-sicherheit-datenschutz.md) · 🏠 [Übersicht](../README.md)
+⬅️ [Modul 6](06-sicherheit-datenschutz.md) · 🏠 [Übersicht](../README.md) · ➡️ [Modul 8: Abläufe automatisieren](08-skills-ablaeufe-automatisieren.md)
