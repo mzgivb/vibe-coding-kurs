@@ -67,6 +67,22 @@ Halte die Struktur übersichtlich. Baue keine unnötige Komplexität ein.
 
 ---
 
+## opencode installieren (Kurzfassung)
+
+| System | Befehl(e) |
+|---|---|
+| **macOS / Linux** | `curl -fsSL https://opencode.ai/install \| bash` |
+| **Windows 11** | Terminal **als Administrator**, dann: `winget install OpenJS.NodeJS.LTS` → Terminal neu öffnen → `npm install -g opencode-ai` |
+
+Danach **Terminal neu öffnen** und prüfen: `opencode --version` (Versionsnummer = ✅).
+
+> ⚠️ **Windows-Stolperstein:** Das Terminal **muss als Administrator** laufen
+> (Start → „Terminal" → Rechtsklick → „Als Administrator ausführen"), sonst bricht die
+> Installation mit `EPERM` ab. Eine PowerShell-Aktualisierung ist auf Win 11 **nicht** nötig.
+> Fertiges Helfer-Skript: [material/install-opencode-windows.ps1](install-opencode-windows.ps1).
+
+---
+
 ## Abläufe automatisieren: Skill vs. Befehl
 
 | | **Befehl** | **Skill** |

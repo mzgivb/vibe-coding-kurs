@@ -68,7 +68,7 @@ entstehen soll – opencode legt die Dateien an und ändert sie selbstständig. 
 
 > **Was ist ein Terminal?** Ein Fenster, in das man Befehle tippt.
 > - **macOS:** Programme → Dienstprogramme → *Terminal*
-> - **Windows:** *PowerShell* (oder besser WSL, siehe unten)
+> - **Windows:** *Terminal* bzw. *PowerShell* (auf eigenen Geräten **als Administrator**, siehe unten)
 > - **Linux:** `Strg + Alt + T`
 
 ### opencode installieren
@@ -95,16 +95,44 @@ Danach das **Terminal neu starten** (schließen und neu öffnen).
 > versucht das automatisch einzutragen – auf manchen Macs (z. B. wenn die Datei `~/.zshrc`
 > noch nicht existiert) klappt das aber nicht. Die zwei Zeilen tragen den Pfad dauerhaft nach.
 
-**Windows – Variante 1 (empfohlen): WSL**
+**Windows – Variante 1 (empfohlen für eigene Geräte mit Admin-Rechten)**
+
+Auf **Windows 11** ist das der einfachste Weg. Du brauchst **Administrator-Rechte** auf deinem
+Gerät (auf einem eigenen Laptop hast du die in der Regel).
+
+1. **Terminal als Administrator öffnen:** Start-Menü → „Terminal" eintippen → **Rechtsklick** →
+   **„Als Administrator ausführen"**.
+   > ⚠️ **Wichtigster Schritt!** Ohne Administrator-Rechte bricht die Installation mit der
+   > Fehlermeldung `EPERM` ab. Das ist der mit Abstand häufigste Stolperstein.
+2. **Node.js installieren:**
+   ```powershell
+   winget install OpenJS.NodeJS.LTS
+   ```
+3. **Terminal schließen und wieder als Administrator öffnen** (damit Node erkannt wird).
+4. **opencode installieren:**
+   ```powershell
+   npm install -g opencode-ai
+   ```
+
+> 🪄 **Noch einfacher – das Helfer-Skript:** Statt der Schritte 2–4 kannst du das fertige Skript
+> [material/install-opencode-windows.ps1](../material/install-opencode-windows.ps1) ausführen. Es
+> prüft die Admin-Rechte, installiert Node.js und opencode und meldet jeden Schritt. Im
+> **als Administrator** geöffneten Terminal, aus dem Kurs-Ordner heraus:
+>
+> ```powershell
+> powershell -ExecutionPolicy Bypass -File .\material\install-opencode-windows.ps1
+> ```
+
+**Windows – Variante 2 (Alternative): WSL**
+
+Nur nötig, wenn du lieber in einer Linux-Umgebung arbeitest. Aufwändiger (Neustart, Ubuntu-Setup).
 
 1. PowerShell **als Administrator** öffnen (Rechtsklick → „Als Administrator ausführen").
 2. `wsl --install` ausführen, PC neu starten (Ubuntu wird automatisch eingerichtet).
 3. Im WSL-Terminal dann den macOS/Linux-Befehl von oben ausführen.
 
-**Windows – Variante 2: direkt mit npm**
-
-1. [Node.js installieren](https://nodejs.org/).
-2. In PowerShell: `npm install -g opencode-ai`
+> 💡 **PowerShell-Version?** Auf Windows 11 ist die vorinstallierte PowerShell aktuell genug –
+> du musst **nichts** nachrüsten. Wichtig ist nur, das Terminal **als Administrator** zu starten.
 
 ### Installation prüfen
 
@@ -245,7 +273,8 @@ zu bearbeiten. Mit zu kleinem Kontext „bearbeitet opencode keine Dateien".
 
 > **Keine Panik bei Problemen.** Wenn etwas klemmt: Frag die KI selbst nach Hilfe, probiere
 > Weg 0 als Ausweichlösung, oder schreib eine Mail an [jochen.leeder@mzgivb.de](mailto:jochen.leeder@mzgivb.de).
-> Eine ausführliche Linux-Installationshilfe liegt unter [material/install-opencode-linux-mint.sh](../material/install-opencode-linux-mint.sh).
+> Ausführliche Installationshilfen liegen bereit – für [Windows](../material/install-opencode-windows.ps1)
+> und für [Linux Mint](../material/install-opencode-linux-mint.sh).
 
 ---
 
