@@ -6,7 +6,9 @@ Du beschreibst in Alltagssprache, was eine Anwendung tun soll. Die KI schreibt d
 Du testest das Ergebnis und sagst, was sich ändern soll. Genau das ist **Vibe Coding** –
 und dieser Kurs zeigt dir Schritt für Schritt, wie es geht.
 
-> *„I just vibe. I'm not really writing code."* — Andrej Karpathy (2025)
+Eines vorweg: Das Lernen geschieht dabei **nicht nebenbei**. Es verlagert sich – weg vom
+Schreiben einzelner Codezeilen, hin zum **präzisen Beschreiben, systematischen Testen und
+kritischen Beurteilen**. Das ist echte Denkarbeit, und genau darin liegt der Lernwert.
 
 Ein Angebot des **Medienzentrums Gießen-Vogelsberg**. Kostenfrei, ohne Anmeldung.
 
@@ -26,6 +28,23 @@ Im Kurstext findest du immer wieder farbige Hinweis-Boxen:
 > 💡 **Für Schüler:** Tipps und Ideen zum Ausprobieren.
 >
 > 🎓 **Für Lehrkräfte:** Hinweise zu Didaktik, Bewertung und Datenschutz im Unterricht.
+
+---
+
+## Zwei Gründe, diesen Kurs zu machen
+
+Der Kurs lohnt sich aus zwei ganz unterschiedlichen Richtungen – er deckt beide ab:
+
+| | **A · KI als dein Werkzeug** | **B · Vibe Coding als Lerngegenstand** |
+|---|---|---|
+| **Für wen?** | Alle, die sich Arbeit abnehmen lassen wollen – besonders Lehrkräfte | Lehrkräfte, die Lernende begleiten und bewerten; Schülerinnen und Schüler selbst |
+| **Worum geht's?** | Eigene kleine Helfer bauen: Quiz, Übungsgenerator, Korrektur-Helfer | Verstehen, **was** beim Vibe Coding gelernt wird – und wie man es sichtbar macht und bewertet |
+| **Kernmodule** | 3, 4, 8 | 1, 6, 7 |
+
+Wichtig zur Einordnung: Es geht **nicht** darum, Schülerinnen und Schüler „mit Code zu
+versorgen". In Fall A nutzt du dein selbst gebautes Werkzeug – die Lernenden sehen nur das
+Ergebnis. In Fall B ist der Code bloß Mittel zum Zweck: Gelernt und bewertet wird der
+**Prozess** – Beschreiben, Testen, Beurteilen.
 
 ---
 
@@ -53,20 +72,30 @@ nachbessern. Trau dich, Dinge kaputtzumachen – die KI hilft dir, sie zu repari
 
 | # | Modul | Worum geht's? | Zeit |
 |---|---|---|---|
-| 1 | [Was ist Vibe Coding?](module/01-was-ist-vibe-coding.md) | Idee, Begriff, der 4-Schritte-Zyklus | ~20 Min |
+| 1 | [Was ist Vibe Coding?](module/01-was-ist-vibe-coding.md) | Idee, Begriff, Zyklus – und wo das Lernen steckt | ~25 Min |
 | 2 | [Werkzeug einrichten](module/02-werkzeug-einrichten.md) | Dein KI-Werkzeug wählen & startklar machen | ~30 Min |
-| 3 | [Deine erste Webseite](module/03-erste-webseite.md) | Eine interaktive Webseite per Prompt | ~40 Min |
-| 4 | [Ein Python-Skript](module/04-python-skript.md) | Eine lästige Aufgabe automatisieren | ~40 Min |
-| 5 | [Eine Desktop-App](module/05-electron-app.md) | Eine echte Notiz-App erweitern | ~45 Min |
+| 3 | [Deine erste Webseite](module/03-erste-webseite.md) | Eine interaktive Webseite per Prompt | ~45 Min |
+| 4 | [Ein Python-Skript](module/04-python-skript.md) | Eine lästige Aufgabe automatisieren | ~45 Min |
+| 5 | [Eine Desktop-App](module/05-electron-app.md) | Eine echte Notiz-App erweitern | ~50 Min |
 | 6 | [Sicherheit & Datenschutz](module/06-sicherheit-datenschutz.md) | Risiken erkennen, KI-Code kritisch prüfen | ~30 Min |
 | 7 | [Reflexion & Unterricht](module/07-reflexion-bewertung-unterricht.md) | Einordnen, bewerten, im Unterricht einsetzen | ~30 Min |
 | 8 | [Abläufe automatisieren](module/08-skills-ablaeufe-automatisieren.md) | Skills bauen – Korrektur & Vorbereitung automatisieren (Bonus) | ~35 Min |
 
-**Gesamtzeit:** rund **4,5 Stunden** – bequem aufteilbar auf mehrere Sitzungen.
+**Gesamtzeit:** rund **5 Stunden** – bequem aufteilbar auf mehrere Sitzungen.
 
-> 🎓 **Für Lehrkräfte:** Module 1, 2, 6 und 7 eignen sich als kompakter Einstieg in einer
-> Doppelstunde. Module 3–5 sind die praktischen Projekte für eine Projektwoche oder AG. **Modul 8**
-> (Bonus) zeigt, wie ihr eigene wiederkehrende Abläufe – Korrektur, Vorbereitung – automatisiert.
+### Zwei Lesepfade
+
+Du musst die Module nicht stur der Reihe nach durcharbeiten – wähle den Pfad, der zu dir passt:
+
+- 💡 **Einsteiger- & Schüler-Pfad:** der Reihe nach – **1 → 2 → 3 → 4 → 5 → 6** (7 und 8 optional).
+- 🎓 **Lehrkräfte-Pfad:** erst die Didaktik, dann das Werkzeug – **1 → 7 → 2 → 3 → 8**, danach
+  nach Bedarf 4, 5 und 6. So ist klar, *wozu* das Ganze dient und *wie bewertet wird*, bevor du
+  selbst baust.
+
+> 🎓 **Für Fortbildung & Unterricht:** Module 1, 7 und 6 eignen sich als kompakter Einstieg in
+> einer Doppelstunde. Module 3–5 sind die praktischen Projekte für eine Projektwoche oder AG.
+> **Modul 8** (Bonus) zeigt, wie ihr euch wiederkehrende Abläufe – Korrektur, Vorbereitung –
+> automatisiert.
 
 ---
 

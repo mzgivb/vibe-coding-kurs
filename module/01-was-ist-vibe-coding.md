@@ -11,9 +11,10 @@ Nach diesem Modul kannst du …
 - in eigenen Worten erklären, was „Vibe Coding" bedeutet,
 - den **4-Schritte-Zyklus** beschreiben, nach dem Vibe Coding funktioniert,
 - erklären, warum sich beim Programmieren mit KI die wichtigen Fähigkeiten **verschieben**,
+- auf den Einwand *„Lernt man dabei überhaupt noch etwas?"* eine fundierte Antwort geben,
 - Vibe Coding von „AI-Assisted Engineering" unterscheiden.
 
-⏱️ **Zeit:** ca. 20 Minuten · **Voraussetzungen:** keine
+⏱️ **Zeit:** ca. 25 Minuten · **Voraussetzungen:** keine
 
 ---
 
@@ -25,13 +26,16 @@ drehst du das um:
 > Du **beschreibst in Alltagssprache**, was eine Anwendung tun soll – die **KI schreibt den Code**.
 > Du **testest** das Ergebnis und sagst der KI, was sich ändern soll.
 
-Der Begriff stammt von **Andrej Karpathy** (Anfang 2025). Er beschrieb es so, dass man „die
-Existenz von Code fast vergisst" und sich nur noch auf das **Ergebnis** konzentriert:
+Der Begriff stammt von **Andrej Karpathy** (Anfang 2025). Er beschrieb damit seine eigene
+Arbeitsweise als **erfahrener Entwickler**: Man „vergisst die Existenz von Code fast" und
+konzentriert sich nur noch auf das **Ergebnis**:
 
 > *„I just vibe. I'm not really writing code."*
 
-Du gehst also bewusst „mit dem Vibe": Du nimmst Vorschläge der KI an, lässt Fehler von ihr
-beheben – ohne jede einzelne Zeile selbst zu verstehen.
+Wichtig zur Einordnung: So arbeitet jemand, der jede Zeile jederzeit selbst lesen und prüfen
+*könnte*. Zum **Lernen** gehen wir in diesem Kurs deshalb bewusst einen Schritt weiter: Du
+nimmst Vorschläge der KI an und lässt Fehler von ihr beheben – aber du lässt dir **erklären**,
+was entstanden ist, und **prüfst und beurteilst** das Ergebnis selbst.
 
 ---
 
@@ -71,6 +75,47 @@ Das ist **keine** Entwertung des Programmierens, sondern eine **Kompetenzverschi
 
 - **Weg von:** Syntax auswendig kennen, Algorithmen aus dem Kopf schreiben.
 - **Hin zu:** ein Problem klar beschreiben, testen, kritisch beurteilen, in Schritten verbessern.
+
+---
+
+## Der berechtigte Einwand: Lernt man dabei überhaupt noch etwas?
+
+Ein Einwand, der in Fortbildungen regelmäßig kommt – und der ernst genommen werden muss:
+
+> *„Wenn die KI den Code schreibt, geschieht das Lernen ja quasi nebenbei. Hat die KI etwa
+> den ersehnten Nürnberger Trichter bereitgestellt?"*
+
+(Der „Nürnberger Trichter" steht sprichwörtlich für die Idee, Wissen ließe sich ohne eigene
+Anstrengung „eintrichtern".)
+
+Die ehrliche Antwort hat zwei Teile.
+
+**Erstens: Der Einwand trifft ein reales Risiko.** Wer nur generieren lässt, kopiert und
+abgibt, lernt dabei tatsächlich fast nichts. Einen Nürnberger Trichter gibt es auch mit KI
+nicht – Lernen braucht eigene, aktive Denkarbeit.
+
+**Zweitens: Genau diese Denkarbeit steckt im Zyklus – in den Schritten 1, 3 und 4.**
+
+| Schritt | Die Denkarbeit dahinter |
+|---|---|
+| **1. Beschreiben** | Ein Problem so präzise fassen, dass es lösbar wird – das ist **Modellbildung**. |
+| **3. Testen** | Vorher eine Erwartung formulieren, dann das Ergebnis prüfen – das ist **Hypothesenprüfung**. |
+| **4. Nachsteuern** | Abweichungen analysieren und in genauere Sprache übersetzen – das ist **Fehleranalyse**. |
+
+Lernen geschieht also nicht *nebenbei*, sondern dann, wenn diese Schritte **sichtbar und
+verbindlich** gemacht werden. Zwei Konsequenzen für diesen Kurs:
+
+- **Für dich:** In den Praxismodulen gehört deshalb der **🧠 Verstehens-Check** fest dazu –
+  du lässt dir von der KI erklären, was sie gebaut hat, und sagst *vorher*, was du erwartest.
+  Erst die eigene Vorhersage macht aus Zuschauen Lernen.
+- **Für den Unterricht:** Bewertet wird der **Prozess** (Beschreibung, Testprotokoll,
+  Iteration, Reflexion) – nicht der generierte Code. Das fertige Raster dazu steht in
+  [Modul 7](07-reflexion-bewertung-unterricht.md). Was die KI erzeugt, gibt keine Punkte.
+
+Und genauso ehrlich: **Etwas geht auch verloren.** Wer ausschließlich per Vibe Coding arbeitet,
+trainiert keine Syntax-Routine und kein Detailverständnis des Codes. Für Prototypen und kleine
+Werkzeuge ist das verschmerzbar – wer Informatik vertieft lernen will, braucht zusätzlich
+klassisches Programmieren.
 
 ---
 
@@ -168,6 +213,19 @@ den man dann testet und durch weiteres Beschreiben verbessert.
 Weil ohne sorgfältige Prüfung (Review) leicht versteckte Fehler und Sicherheitslücken entstehen.
 Für produktive Software braucht es „AI-Assisted Engineering", bei dem der Mensch die volle
 Verantwortung für Architektur und Qualität behält.
+
+</details>
+
+**4. Jemand wendet ein: „Mit KI geschieht das Lernen ja nebenbei." Was antwortest du?**
+
+<details>
+<summary>Lösung</summary>
+
+Nebenbei lernt man auch mit KI nichts – das Risiko des gedankenlosen Kopierens ist real. Aber
+die Denkarbeit verschwindet nicht, sie steckt in den Schritten Beschreiben (Modellbildung),
+Testen (Hypothesenprüfung) und Nachsteuern (Fehleranalyse). Lernen findet statt, wenn diese
+Schritte sichtbar und verbindlich gemacht werden – etwa indem der Prozess bewertet wird statt
+des Codes (siehe Modul 7).
 
 </details>
 

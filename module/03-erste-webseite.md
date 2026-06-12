@@ -10,9 +10,10 @@ Nach diesem Modul kannst du …
 
 - eine **interaktive Webseite** allein durch Beschreiben erzeugen,
 - das Ergebnis im Browser **testen** und gezielt **nachsteuern**,
+- mit dem **Verstehens-Check** prüfen, ob du nachvollziehst, was die KI gebaut hat,
 - einen guten Prompt aufbauen (Ziel, Funktionen, Rahmen).
 
-⏱️ **Zeit:** ca. 40 Minuten · **Voraussetzungen:** [Modul 2](02-werkzeug-einrichten.md)
+⏱️ **Zeit:** ca. 45 Minuten · **Voraussetzungen:** [Modul 2](02-werkzeug-einrichten.md)
 (ein startklares Werkzeug)
 
 ---
@@ -57,6 +58,18 @@ Die KI erzeugt die Datei `index.html`. (Bei Weg 0: Code in eine Datei `index.htm
 - Kann ich eine Aufgabe eintippen und hinzufügen?
 - Erscheint sie in der Liste?
 - Wird sie beim Anklicken durchgestrichen?
+
+> 🧠 **Verstehens-Check (gehört ab jetzt zu jedem Projekt):** Bevor du nachsteuerst, überlege
+> zuerst selbst: *Was passiert wohl im Code, wenn ich eine Aufgabe anklicke?* Formuliere deine
+> Erwartung in einem Satz. Frage dann die KI:
+>
+> ```text
+> Erkläre mir in einfachen Worten, Schritt für Schritt: Was passiert, wenn ich
+> eine Aufgabe anklicke und sie durchgestrichen wird?
+> ```
+>
+> Vergleiche die Antwort mit deiner Erwartung. Erst die **eigene Vorhersage** macht aus
+> Zuschauen Lernen – warum, steht in [Modul 1](01-was-ist-vibe-coding.md).
 
 ### Schritt 4 – Nachsteuern
 
@@ -129,6 +142,35 @@ dir an, was möglich ist. (Es wurde selbst per Vibe Coding gebaut.)
 
 ---
 
+## 🎓 Varianten für dein Fach
+
+Die To-do-Liste ist nur das Übungsstück. Mit **demselben Vorgehen** baust du Werkzeuge für
+deinen eigenen Unterricht – ersetze einfach den Prompt aus Praxis 1, der Rest des Zyklus
+(testen, Verstehens-Check, nachsteuern) bleibt gleich:
+
+```text
+Erstelle eine einzelne Datei vokabeltrainer.html: Ich kann Wortpaare
+(Deutsch – Fremdsprache) eingeben, dann fragt mich die Seite die Vokabeln in
+zufälliger Reihenfolge ab und zählt richtige Antworten. Schlichtes Design.
+```
+
+```text
+Erstelle eine einzelne Datei quiz.html mit einem Multiple-Choice-Quiz zum Thema
+[dein Thema, z. B. "Photosynthese, Klasse 7"]. 5 Fragen, sofortiges Feedback
+pro Frage, am Ende die Punktzahl. Die Fragen gebe ich dir gleich vor.
+```
+
+```text
+Erstelle eine einzelne Datei gruppen.html: Ich füge eine Namensliste ein
+(ein Name pro Zeile), wähle eine Gruppengröße und bekomme per Klick eine
+zufällige Gruppeneinteilung – gut lesbar fürs Whiteboard.
+```
+
+> ⚠️ Auch hier gilt [Modul 6](06-sicherheit-datenschutz.md): **keine echten Schülernamen** in
+> Cloud-KIs eingeben – nimm für Tests erfundene Listen.
+
+---
+
 ## 💡🎓 Hinweise
 
 > 💡 **Für Schüler:** Trau dich, die Seite „kaputtzumachen". Bitte die KI um wilde Ideen –
@@ -171,6 +213,17 @@ Weil Änderungen **sofort im Browser sichtbar** werden – der Test-Schritt ist 
 
 </details>
 
+**4. Warum sollst du beim Verstehens-Check zuerst deine eigene Erwartung formulieren?**
+
+<details>
+<summary>Lösung</summary>
+
+Weil die Vorhersage dich zwingt, **aktiv zu denken**. Eine Erklärung nur zu lesen ist passiv –
+erst der Vergleich zwischen deiner Erwartung und der Antwort zeigt dir, was du wirklich
+verstanden hast (und was nicht).
+
+</details>
+
 ---
 
 ## 📋 Aufgaben
@@ -178,6 +231,7 @@ Weil Änderungen **sofort im Browser sichtbar** werden – der Test-Schritt ist 
 > Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
 
 - [ ] Baue per Prompt eine To-do-Liste und öffne sie im Browser #kurs/modul-3 (@[[2026-06-30]])
+- [ ] Verstehens-Check: Formuliere deine Erwartung und lass dir erklären, was beim Anklicken passiert #kurs/modul-3 (@[[2026-06-30]])
 - [ ] Steuere zweimal nach: erledigte Aufgaben ausblenden + Layout responsiv machen #kurs/modul-3 (@[[2026-06-30]])
 - [ ] (Optional) Baue die Quiz-Seite und vergleiche sie mit `beispiele/webseite/` #kurs/modul-3 (@[[2026-06-30]])
 

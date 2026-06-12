@@ -9,10 +9,11 @@
 Nach diesem Modul kannst du …
 
 - eine **echte Desktop-App** starten (eine Notiz-App mit Electron),
+- mit dem **Verstehens-Check** nachvollziehen, wie mehrere Dateien zusammenspielen,
 - eine bestehende App per Vibe Coding um eine **neue Funktion** erweitern,
 - erkennen, warum Desktop-Apps **mehr Sorgfalt** bei Struktur und Sicherheit brauchen.
 
-⏱️ **Zeit:** ca. 45 Minuten · **Voraussetzungen:** [Modul 2](02-werkzeug-einrichten.md),
+⏱️ **Zeit:** ca. 50 Minuten · **Voraussetzungen:** [Modul 2](02-werkzeug-einrichten.md),
 Node.js (`node --version`). Für die Erweiterung ist **opencode** (Weg A/B) empfohlen, weil hier
 mehrere Dateien zusammenarbeiten.
 
@@ -70,6 +71,18 @@ Ordner der App**:
 cd beispiele/notizen-app
 opencode
 ```
+
+> 🧠 **Verstehens-Check vorab:** Die App besteht aus sechs Dateien (Tabelle oben). Rate zuerst
+> selbst: *In welchen Dateien muss sich für eine Suchfunktion etwas ändern – und warum?*
+> Frage dann:
+>
+> ```text
+> Ich möchte eine Suchfunktion über der Notizliste ergänzen. Erkläre mir zuerst
+> nur, welche Dateien du dafür ändern müsstest und warum. Ändere noch nichts.
+> ```
+>
+> Vergleiche die Antwort mit deiner Vermutung – dann erst loslegen. Bei einer App aus
+> mehreren Dateien zeigt dir dieser Schritt, **wie die Teile zusammenspielen**.
 
 ### Schritt 1 – Beschreiben
 
@@ -164,6 +177,7 @@ zusammenarbeitenden Teilen besteht – das erhöht die Anforderungen an Sicherhe
 > Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
 
 - [ ] Starte die Notiz-App (`npm install && npm start`) #kurs/modul-5 (@[[2026-07-06]])
+- [ ] Verstehens-Check: Rate, welche Dateien sich für die Suche ändern müssen, und lass es dir erklären #kurs/modul-5 (@[[2026-07-06]])
 - [ ] Ergänze per Vibe Coding eine Suchfunktion über der Notizliste #kurs/modul-5 (@[[2026-07-06]])
 - [ ] Mach die Suche case-insensitive und teste sie erneut #kurs/modul-5 (@[[2026-07-06]])
 

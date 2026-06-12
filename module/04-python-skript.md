@@ -9,10 +9,11 @@
 Nach diesem Modul kannst du …
 
 - eine wiederkehrende Aufgabe als **Python-Skript** automatisieren lassen,
+- dir ein Skript **erklären lassen, bevor** du es ausführst (Verstehens-Check als Sicherheitsprüfung),
 - ein Skript ausführen und seine **Ausgabe** prüfen,
 - die besonderen **Sicherheitsregeln** bei Dateioperationen anwenden.
 
-⏱️ **Zeit:** ca. 40 Minuten · **Voraussetzungen:** [Modul 2](02-werkzeug-einrichten.md), Python
+⏱️ **Zeit:** ca. 45 Minuten · **Voraussetzungen:** [Modul 2](02-werkzeug-einrichten.md), Python
 installiert (`python3 --version`)
 
 ---
@@ -64,6 +65,19 @@ vor dem Umbenennen einmal nach, ob ich fortfahren möchte.
 
 Die KI erzeugt `umbenennen.py`. (Weg 0: Code in eine Datei `umbenennen.py` kopieren.)
 
+> 🧠 **Verstehens-Check – hier sogar Pflicht:** Bevor du das Skript startest, sage zuerst
+> selbst, was es deiner Erwartung nach gleich tun wird. Frage dann:
+>
+> ```text
+> Erkläre mir Schritt für Schritt, was umbenennen.py mit den Dateien in meinem
+> Ordner macht. Was würde passieren, wenn dort schon eine .md-Datei liegt?
+> ```
+>
+> Bei einer Webseite ist der Verstehens-Check eine Lernhilfe – bei einem Skript, das
+> **Dateien verändert**, ist er zusätzlich deine **Sicherheitsprüfung**
+> ([Modul 6](06-sicherheit-datenschutz.md)). Erst wenn die Erklärung zu deiner Erwartung
+> passt, geht es weiter.
+
 ### Schritt 3 – Ausführen
 
 ```bash
@@ -104,6 +118,33 @@ ruhig danach:
 
 > Vibe Coding heißt nicht „blind vertrauen". Gerade bei Python prüfst du **vorher**, ob ein
 > Skript etwas Unumkehrbares tut.
+
+---
+
+## 🎓 Varianten für dein Fach (und dein Lehrerzimmer)
+
+Dasselbe Vorgehen, andere lästige Aufgabe – fertige Prompts zum Austauschen:
+
+```text
+Schreibe ein Python-Skript notenschluessel.py: Ich gebe die maximale Punktzahl
+ein, und es gibt mir als Tabelle aus, welche Punktzahl welcher Note entspricht.
+Die Prozentgrenzen sollen oben im Skript stehen, damit ich sie anpassen kann.
+```
+
+```text
+Schreibe ein Python-Skript sortiere_material.py, das in einem Ordner alle
+Dateien nach Typ in Unterordner sortiert (PDF, Bilder, Word). Zeige erst an,
+was verschoben würde, und frage dann nach. Lösche und überschreibe nichts.
+```
+
+```text
+Schreibe ein Python-Skript auswertung.py, das eine CSV-Datei mit erfundenen
+Testergebnissen einliest (Spalten: Name, Punkte) und Durchschnitt, beste und
+schlechteste Punktzahl sowie eine einfache Notenverteilung ausgibt.
+```
+
+> ⚠️ Wie immer: mit **Kopien und erfundenen Daten** testen – keine echten Schülerdaten in
+> Cloud-KIs ([Modul 6](06-sicherheit-datenschutz.md)).
 
 ---
 
@@ -158,7 +199,8 @@ es mit den Dateien macht – und zuerst in einem Test-Ordner ausprobieren.
 > Abhaken speichert direkt in dieser Datei. In **MindGraph Notes** erscheinen diese Aufgaben automatisch im **Tasks**-Widget und am Fälligkeitstag im **Focus**. Übersicht & Kursfahrplan: [Aufgaben.md](../Aufgaben.md).
 
 - [ ] Lege einen Test-Ordner mit ein paar `.txt`-Dateien an (sicherer Spielplatz) #kurs/modul-4 (@[[2026-07-02]])
-- [ ] Lass dir `umbenennen.py` schreiben und führe es im Test-Ordner aus #kurs/modul-4 (@[[2026-07-02]])
+- [ ] Lass dir `umbenennen.py` schreiben und **erklären**, bevor du es startest (Verstehens-Check) #kurs/modul-4 (@[[2026-07-02]])
+- [ ] Führe das Skript im Test-Ordner aus und prüfe das Ergebnis #kurs/modul-4 (@[[2026-07-02]])
 - [ ] Verbessere das Skript: Zielordner beim Start angeben können #kurs/modul-4 (@[[2026-07-02]])
 
 ---

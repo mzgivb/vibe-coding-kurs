@@ -24,7 +24,7 @@ Diese Seite gibt dir den Überblick über alle Aufgaben des Kurses und einen
 Form `(@[[2026-06-30]])` ist die **Fälligkeit für MindGraph** – im Browser einfach als Termin lesen.
 
 > **Hinweis zu den Terminen:** Der Fahrplan geht von einem **Kursstart am Di, 23.06.2026** aus
-> (rund 4,5 Stunden, verteilt auf gut zwei Wochen). Beginnst du später, verschiebe die Daten
+> (rund 5 Stunden, verteilt auf gut zwei Wochen). Beginnst du später, verschiebe die Daten
 > entsprechend – in MindGraph bequem per Datums-Picker, im Text per Suchen-und-Ersetzen.
 
 ---
@@ -35,14 +35,14 @@ Form `(@[[2026-06-30]])` ist die **Fälligkeit für MindGraph** – im Browser e
 |---|---|---|---|
 | [1](module/01-was-ist-vibe-coding.md) | Was ist Vibe Coding? | 3 | **Mi, 24.06.2026** |
 | [2](module/02-werkzeug-einrichten.md) | Werkzeug einrichten | 2 | **Fr, 26.06.2026** |
-| [3](module/03-erste-webseite.md) | Deine erste Webseite | 3 | **Di, 30.06.2026** |
-| [4](module/04-python-skript.md) | Ein Python-Skript | 3 | **Do, 02.07.2026** |
-| [5](module/05-electron-app.md) | Eine Desktop-App | 3 | **Mo, 06.07.2026** |
+| [3](module/03-erste-webseite.md) | Deine erste Webseite | 4 | **Di, 30.06.2026** |
+| [4](module/04-python-skript.md) | Ein Python-Skript | 4 | **Do, 02.07.2026** |
+| [5](module/05-electron-app.md) | Eine Desktop-App | 4 | **Mo, 06.07.2026** |
 | [6](module/06-sicherheit-datenschutz.md) | Sicherheit & Datenschutz | 2 | **Mi, 08.07.2026** |
 | [7](module/07-reflexion-bewertung-unterricht.md) | Reflexion & Unterricht | 3 | **Fr, 10.07.2026** |
 | [8](module/08-skills-ablaeufe-automatisieren.md) | Abläufe automatisieren (Bonus) | 3 | **Mo, 13.07.2026** |
 
-**Gesamt:** 22 Aufgaben · rund 4,5 Stunden Arbeitszeit.
+**Gesamt:** 25 Aufgaben · rund 5 Stunden Arbeitszeit.
 
 ---
 
@@ -62,16 +62,19 @@ Form `(@[[2026-06-30]])` ist die **Fälligkeit für MindGraph** – im Browser e
 
 ### [Modul 3 – Deine erste Webseite](module/03-erste-webseite.md) · bis 30.06.
 - Baue per Prompt eine To-do-Liste und öffne sie im Browser.
+- Verstehens-Check: Erwartung formulieren, dann erklären lassen, was beim Anklicken passiert.
 - Steuere zweimal nach: erledigte ausblenden + Layout responsiv machen.
 - (Optional) Baue die Quiz-Seite und vergleiche sie mit `beispiele/webseite/`.
 
 ### [Modul 4 – Ein Python-Skript](module/04-python-skript.md) · bis 02.07.
 - Lege einen Test-Ordner mit `.txt`-Dateien an (sicherer Spielplatz).
-- Lass dir `umbenennen.py` schreiben und führe es im Test-Ordner aus.
+- Lass dir `umbenennen.py` schreiben und erklären, bevor du es startest (Verstehens-Check).
+- Führe das Skript im Test-Ordner aus und prüfe das Ergebnis.
 - Verbessere das Skript: Zielordner beim Start angeben können.
 
 ### [Modul 5 – Eine Desktop-App](module/05-electron-app.md) · bis 06.07.
 - Starte die Notiz-App (`npm install && npm start`).
+- Verstehens-Check: Rate, welche Dateien sich für die Suche ändern müssen, und lass es dir erklären.
 - Ergänze per Vibe Coding eine Suchfunktion.
 - Mach die Suche case-insensitive und teste sie erneut.
 

@@ -22,6 +22,11 @@ Du testest das Ergebnis und beschreibst, was geändert werden soll.
 | 3. **Testen** | Ausführen/öffnen und prüfen: Tut es, was es soll? |
 | 4. **Nachsteuern** | Fehler/Wünsche beschreiben – Verhalten korrigieren, nicht Code debuggen. Zurück zu 2. |
 
+> 🧠 **Verstehens-Check (gehört in jeden Durchlauf):** Lass dir erklären, was die KI gebaut
+> hat – und formuliere **vorher** deine Erwartung. Bei Skripten, die Dateien verändern,
+> ist das Pflicht **vor** dem Ausführen. Das Lernen geschieht nicht nebenbei – es steckt in
+> Beschreiben, Testen, Beurteilen.
+
 ---
 
 ## Guter Prompt – das Rezept
