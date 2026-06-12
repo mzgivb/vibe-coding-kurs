@@ -56,12 +56,12 @@ else
     print_ok "Ollama installiert"
 fi
 
-print_step "Lokales KI-Modell herunterladen (ca. 1,1 GB – bitte Geduld)"
-ollama pull qwen2.5-coder:1.5b
-print_ok "qwen2.5-coder:1.5b heruntergeladen"
+print_step "Lokales KI-Modell herunterladen (ca. 1,9 GB – bitte Geduld)"
+ollama pull qwen2.5-coder:3b
+print_ok "qwen2.5-coder:3b heruntergeladen"
 
-ollama cp qwen2.5-coder:1.5b qwen2.5-coder:1.5b-16k 2>/dev/null || true
-print_ok "16k-Kontext-Variante angelegt (qwen2.5-coder:1.5b-16k)"
+ollama cp qwen2.5-coder:3b qwen2.5-coder:3b-16k 2>/dev/null || true
+print_ok "16k-Kontext-Variante angelegt (qwen2.5-coder:3b-16k)"
 
 # ----- opencode-Konfiguration anlegen ---------------------------------------
 CONFIG_DIR="$HOME/.config/opencode"
@@ -80,8 +80,8 @@ if [ ! -f "$CONFIG_FILE" ]; then
         "baseURL": "http://localhost:11434/v1"
       },
       "models": {
-        "qwen2.5-coder:1.5b-16k": {
-          "name": "Qwen 2.5 Coder 1.5b (16k)"
+        "qwen2.5-coder:3b-16k": {
+          "name": "Qwen 2.5 Coder 3b (16k)"
         }
       }
     }
@@ -141,7 +141,7 @@ echo ''
 echo -e "${YELLOW}Offline-Fallback (funktioniert ohne Internet – auch auf älteren Laptops):${NC}"
 echo ''
 echo "  opencode starten und Ollama-Modell auswählen:"
-echo "    /models → qwen2.5-coder:1.5b-16k"
+echo "    /models → qwen2.5-coder:3b-16k"
 echo ''
 echo '============================================================'
 echo -e "  ${GREEN}Alles bereit für die Fortbildung am 23.06.2026!${NC}"

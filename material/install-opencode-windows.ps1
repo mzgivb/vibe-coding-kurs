@@ -173,10 +173,10 @@ if ($Offline) {
         Write-Info "Danach dieses Skript erneut mit -Offline ausfuehren."
     }
     else {
-        Write-Info "Lade lokales Modell qwen2.5-coder:1.5b (ca. 1,1 GB - bitte Geduld)..."
-        ollama pull qwen2.5-coder:1.5b
+        Write-Info "Lade lokales Modell qwen2.5-coder:3b (ca. 1,9 GB - bitte Geduld)..."
+        ollama pull qwen2.5-coder:3b
         # 16k-Variante: noetig, damit opencode ganze Dateien bearbeiten kann
-        ollama cp qwen2.5-coder:1.5b qwen2.5-coder:1.5b-16k 2>$null
+        ollama cp qwen2.5-coder:3b qwen2.5-coder:3b-16k 2>$null
         Write-Ok "Modell inkl. 16k-Variante bereit"
 
         $configDir  = Join-Path $HOME ".config\opencode"
@@ -196,8 +196,8 @@ if ($Offline) {
         "baseURL": "http://localhost:11434/v1"
       },
       "models": {
-        "qwen2.5-coder:1.5b-16k": {
-          "name": "Qwen 2.5 Coder 1.5b (16k)"
+        "qwen2.5-coder:3b-16k": {
+          "name": "Qwen 2.5 Coder 3b (16k)"
         }
       }
     }
@@ -243,7 +243,7 @@ Write-Host "    API-Key in opencode einfuegen  ->  /models  ->  DeepSeek V4 Flas
 Write-Host ""
 if ($Offline) {
     Write-Host "Offline-Weg (ohne Internet):" -ForegroundColor Yellow
-    Write-Host "    In opencode:  /models  ->  qwen2.5-coder:1.5b-16k"
+    Write-Host "    In opencode:  /models  ->  qwen2.5-coder:3b-16k"
     Write-Host ""
 }
 Write-Host "============================================================"

@@ -194,16 +194,17 @@ curl -fsSL https://ollama.com/install.sh | sh
 # Windows → in WSL den Linux-Befehl ausführen
 ```
 
-**Modell herunterladen** (kleines Modell, läuft auch auf älteren Laptops):
+**Modell herunterladen** (kompaktes Modell, ca. 2 GB Download – läuft auch auf Laptops ohne
+Spezial-Hardware, ab etwa 4 GB freiem Arbeitsspeicher):
 
 ```bash
-ollama pull qwen2.5-coder:1.5b
+ollama pull qwen2.5-coder:3b
 ```
 
 **Wichtig – 16k-Variante anlegen** (sonst bearbeitet opencode keine Dateien):
 
 ```bash
-ollama cp qwen2.5-coder:1.5b qwen2.5-coder:1.5b-16k
+ollama cp qwen2.5-coder:3b qwen2.5-coder:3b-16k
 ```
 
 **opencode mit Ollama verbinden** – lege im Projektordner eine Datei `opencode.json` an:
@@ -217,11 +218,11 @@ ollama cp qwen2.5-coder:1.5b qwen2.5-coder:1.5b-16k
       "name": "Ollama (local)",
       "options": { "baseURL": "http://localhost:11434/v1" },
       "models": {
-        "qwen2.5-coder:1.5b-16k": { "name": "Qwen 2.5 Coder 1.5b (16k)" }
+        "qwen2.5-coder:3b-16k": { "name": "Qwen 2.5 Coder 3b (16k)" }
       }
     }
   },
-  "model": "ollama/qwen2.5-coder:1.5b-16k"
+  "model": "ollama/qwen2.5-coder:3b-16k"
 }
 ```
 

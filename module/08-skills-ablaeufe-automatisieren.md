@@ -183,7 +183,7 @@ angewandt.
 > anpasst – nie als automatische Bewertung.
 
 > 🎓 **Modell-Hinweis.** Skills funktionieren am zuverlässigsten mit **leistungsfähigen Modellen**
-> (Weg A: DeepSeek V4 Flash Free). Sehr kleine lokale Modelle (Weg B, z. B. das 1.5b-Modell)
+> (Weg A: DeepSeek V4 Flash Free). Sehr kleine lokale Modelle (Weg B, z. B. das 3b-Modell)
 > ziehen Skills nicht immer von selbst – dann den Skill manuell aufrufen oder ein größeres Modell
 > verwenden.
 
