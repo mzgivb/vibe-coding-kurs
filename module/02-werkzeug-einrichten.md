@@ -148,6 +148,14 @@ Erscheint eine Versionsnummer, hat es geklappt. ✅
 
 DeepSeek V4 Flash Free ist aktuell **kostenlos** über opencode nutzbar – ohne Zahlungsdaten.
 
+> ⚠️ **Datenschutz bei DeepSeek:** DeepSeek ist das Modell eines **chinesischen Anbieters** –
+> deine Eingaben werden auf dessen Servern außerhalb der EU verarbeitet. Gib daher **keine
+> personenbezogenen Daten** ein (keine echten Namen, Noten, Adressen – Details in
+> [Modul 6](06-sicherheit-datenschutz.md)). Für die Übungen dieses Kurses ist das unkritisch,
+> weil nur Übungsprojekte und erfundene Daten verwendet werden. Sobald du mit **sensiblen
+> Daten** arbeiten willst, führt der Weg zwingend über die **lokale KI (Weg B, Ollama)** –
+> dort verlassen die Daten deinen Rechner nicht.
+
 1. opencode starten:
    ```bash
    opencode

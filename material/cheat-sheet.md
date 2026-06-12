@@ -68,6 +68,10 @@ Halte die Struktur übersichtlich. Baue keine unnötige Komplexität ein.
 
 \* Free-Kontingent zeitlich begrenzt.
 
+> ⚠️ **Datenschutz:** DeepSeek (Weg A) = **chinesischer Anbieter**, ChatGPT/Claude/Gemini =
+> US-Anbieter – nirgendwo personenbezogene Daten eingeben. **Sensible Daten → nur Weg B**
+> (Ollama, lokal).
+
 **opencode-Befehle:** `opencode` (starten) · `/connect` (Anbieter) · `/models` (Modell) · `/exit`
 
 ---

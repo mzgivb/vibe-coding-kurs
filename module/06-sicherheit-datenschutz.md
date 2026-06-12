@@ -29,10 +29,12 @@ man nicht vollständig versteht. Die wichtigste Kompetenz, die dieser Kurs vermi
 
 1. **Keine personenbezogenen Daten in Prompts.** Niemals echte Namen, Adressen, Noten oder
    andere persönliche Daten in einen KI-Chat schreiben.
-2. **Tools datenschutzbewusst wählen.** ChatGPT und Claude sind US-Anbieter. Für die schulische
-   Nutzung ist eine **Datenschutz-Folgenabschätzung** nötig; prüfe DSGVO-konforme Alternativen
-   (auch europäische Anbieter). Der **Offline-Weg** (Ollama, [Modul 2](02-werkzeug-einrichten.md))
-   hält Daten lokal.
+2. **Tools datenschutzbewusst wählen.** ChatGPT und Claude sind US-Anbieter, **DeepSeek
+   (Weg A) ist ein chinesischer Anbieter** – in allen Fällen werden Eingaben auf Servern
+   außerhalb der EU verarbeitet. Für die schulische Nutzung ist eine
+   **Datenschutz-Folgenabschätzung** nötig; prüfe DSGVO-konforme Alternativen (auch
+   europäische Anbieter). **Sensible Daten gehören ausschließlich in den Offline-Weg B**
+   (Ollama, [Modul 2](02-werkzeug-einrichten.md)) – dort bleiben sie lokal auf deinem Gerät.
 3. **Altersgrenzen beachten.** ChatGPT: ab 13 Jahren (mit Elternzustimmung), Claude: ab 18.
    Für jüngere Lernende das KI-Tool **nur über die Lehrkraft** nutzen (Frontal-Demo).
 4. **Keine sensiblen Dokumente hochladen.** Keine Klassenarbeiten, Förderpläne, Elternbriefe.
