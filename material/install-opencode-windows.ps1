@@ -6,11 +6,14 @@
 ================================================================
 
  Was dieses Skript tut:
-   1. Prueft, ob das Terminal als Administrator laeuft (Pflicht!)
-   2. Installiert Node.js LTS (per winget), falls noch nicht vorhanden
-   3. Installiert opencode (per npm)
-   4. Prueft die Installation
-   5. Optional (-Offline): legt die Ollama-Konfiguration fuer den
+   1. Wechselt automatisch zu PowerShell 7, falls es noch unter der alten
+      Windows PowerShell 5.1 laeuft (dort scheitert 'npm -g' teils mit
+      einem Rechte-Fehler). PowerShell 7 wird bei Bedarf per winget installiert.
+   2. Prueft, ob das Terminal als Administrator laeuft (Pflicht!)
+   3. Installiert Node.js LTS (per winget), falls noch nicht vorhanden
+   4. Installiert opencode (per npm)
+   5. Prueft die Installation
+   6. Optional (-Offline): legt die Ollama-Konfiguration fuer den
       Offline-Weg an
 
  So startest du das Skript:
@@ -46,6 +49,49 @@ function Update-SessionPath {
 }
 
 $ErrorActionPreference = 'Stop'
+
+# ----- 0. PowerShell 7 sicherstellen ----------------------------------------
+# Globale npm-Installationen (npm install -g) schlagen unter der alten,
+# vorinstallierten Windows PowerShell 5.1 mitunter mit einem Rechte-Fehler fehl
+# ("EPERM" / keine Berechtigung) - selbst als Administrator. Mit PowerShell 7
+# laeuft es zuverlaessig. Laeuft dieses Skript noch unter 5.1, startet es sich
+# selbst unter PowerShell 7 neu und installiert diese bei Bedarf per winget.
+if ($PSVersionTable.PSVersion.Major -lt 7) {
+    Write-Step "PowerShell-Version pruefen"
+    Write-Info "Aktuell: Windows PowerShell $($PSVersionTable.PSVersion). Empfohlen: PowerShell 7."
+
+    $pwshPath = (Get-Command pwsh -ErrorAction SilentlyContinue).Source
+    if (-not $pwshPath -and (Test-Path "$env:ProgramFiles\PowerShell\7\pwsh.exe")) {
+        $pwshPath = "$env:ProgramFiles\PowerShell\7\pwsh.exe"
+    }
+
+    if (-not $pwshPath) {
+        if (Get-Command winget -ErrorAction SilentlyContinue) {
+            Write-Info "PowerShell 7 wird per winget installiert (kann ein paar Minuten dauern)..."
+            winget install Microsoft.PowerShell `
+                --accept-source-agreements --accept-package-agreements --silent
+            if (Test-Path "$env:ProgramFiles\PowerShell\7\pwsh.exe") {
+                $pwshPath = "$env:ProgramFiles\PowerShell\7\pwsh.exe"
+            }
+            else {
+                $pwshPath = (Get-Command pwsh -ErrorAction SilentlyContinue).Source
+            }
+        }
+    }
+
+    if ($pwshPath) {
+        Write-Ok "Starte das Skript unter PowerShell 7 neu..."
+        $argList = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $PSCommandPath)
+        if ($Offline) { $argList += '-Offline' }
+        & $pwshPath @argList
+        exit $LASTEXITCODE
+    }
+
+    Write-Fail "PowerShell 7 ist nicht verfuegbar und konnte nicht installiert werden."
+    Write-Info "Bitte PowerShell 7 installieren:  winget install Microsoft.PowerShell"
+    Write-Info "Danach dieses Skript in PowerShell 7 erneut starten."
+    exit 1
+}
 
 Write-Host ""
 Write-Host "============================================================"
